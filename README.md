@@ -12,3 +12,4 @@ git pull origin main
 git config => ! Important !
 ssh-keygen -t rsa -b C "email" => generat public key
 git init => Create an empty Git repository or reinitialize an existing one
+git config --global alias.shortcut "command" => do shortcut with alias to any comman you want in git 
