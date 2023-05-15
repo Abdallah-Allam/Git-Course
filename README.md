@@ -12,4 +12,12 @@ git pull origin main
 git config => ! Important !
 ssh-keygen -t rsa -b C "email" => generat public key
 git init => Create an empty Git repository or reinitialize an existing one
-git config --global alias.shortcut "command" => do shortcut with alias to any comman you want in git 
+git config --global alias.shortcut "command" => do shortcut with alias to any comman you want in 
+git branch => display the branchs you have
+git branch name_of_branch => generate new branch with any name you want
+git checkout => switch the branchs
+git checkout name_of_branch => switch to "name_of_branch"
+git checkout -b new_branch => generate new branch and switch to it
+git branch -d name_of_branch => delete the branch but if the branch has new edits then the command does not delete it
+git branch -D name_of_branch => the command force the delete of the branch even if it has edits
+git branch -m new_name => rename the branch
