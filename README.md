@@ -21,3 +21,7 @@ git checkout -b new_branch => generate new branch and switch to it
 git branch -d name_of_branch => delete the branch but if the branch has new edits then the command does not delete it
 git branch -D name_of_branch => the command force the delete of the branch even if it has edits
 git branch -m new_name => rename the branch
+git stash => stash your files in stashed place you can have it anytime you want
+git stash pop => pull the stashed files from the stashed place 
+git stash list => list the stashed files
+
