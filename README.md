@@ -1,6 +1,8 @@
 # Git_Course
 pull Request =>is a feature in Git and GitHub that allows users to propose changes to a repository hosted on GitHub. It is a way to notify the repository owner or team that you have made changes to their code and that you would like them to review and potentially merge your changes into their repository.
 
+Head => It is the pointer the focus on your last commit
+
 
 
 ## Command lines
@@ -54,8 +56,12 @@ git stash => stash your files in stashed place you can have it anytime you want
 	git stash clear => clear all the stash you do
 
 git restore --staged (file) => unstage the file, restore the file from staged area
-	git clean -n => show the files that untracked and he will delete them
+	git clean -n => show the files that untracked and that he will delete them
 	git clean -f => clean the untracked files
 	! You can do all the commands in git in visual studio code !
+
+git reset --hard, e437aa4(commit_hash) => it makes the Head focus on the commit with that hash and delete all commits after it
+	git log => display the hashs of commits and where the Head focus
+	git push origin main --force => force the push to update the remote repo after reset
 	
 
