@@ -69,6 +69,7 @@ touch .gitignore => .gitignore file you can put any files or directories you wan
 		*.log => ignore anything with log extinsion
 		!vip.log => it is an exception for this file with log extension
 		packs/ => ignore directory with its files
+	! if you use -f, --force command he will ignore all the ingores in .gitignore file !
 
 	
 
