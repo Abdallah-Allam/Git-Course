@@ -63,5 +63,12 @@ git restore --staged (file) => unstage the file, restore the file from staged ar
 git reset --hard, e437aa4(commit_hash) => it makes the Head focus on the commit with that hash and delete all commits after it
 	git log => display the hashs of commits and where the Head focus
 	git push origin main --force => force the push to update the remote repo after reset
+
+touch .gitignore => .gitignore file you can put any files or directories you want to ignore them
+	code .gitignore => you can edit that in code editor
+		*.log => ignore anything with log extinsion
+		!vip.log => it is an exception for this file with log extension
+		packs/ => ignore directory with its files
+
 	
 
