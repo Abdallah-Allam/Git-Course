@@ -71,5 +71,12 @@ touch .gitignore => .gitignore file you can put any files or directories you wan
 		packs/ => ignore directory with its files
 	! if you use -f, --force command he will ignore all the ingores in .gitignore file !
 
+git tag => displays the tags you create
+	git tag v1.0 => light weight tag => create a new light weight tag
+	git tag -a v2.0 -m "message" => create a new anotated tag 
+	git tag -l "v1.*" => it lists all the first versions tags (v1.1 v1.2 v1.3)
+	git tag -d v1.0 => delete the tag on the local repo
+	git push origin -main --delete v1.0 => delete the tag from the remote repo
+
 	
 
